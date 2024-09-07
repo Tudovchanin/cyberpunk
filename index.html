@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Cyberpunk</title>
+</head>
+
+<body>
+  <header class="header header--position content-width">
+    <a href="#" class="logo-container">
+      <img src="./images/logo_min.png" alt="Cyberpunk logo">
+    </a>
+    <div class="social-icons">
+      <a href="#" class="link-icon"><img class="link-icon__img" src="./images/icon/youtube.svg" alt="youtube"></a>
+      <a href="#" class="link-icon"><img class="link-icon__img" src="./images/icon/VK.svg" alt="vk"></a>
+      <a href="#" class="link-icon"><img class="link-icon__img" src="./images/icon/twitter.svg" alt="twitter"></a>
+      <a href="#" class="link-icon"><img class="link-icon__img" src="./images/icon/twitch.svg" alt="twitch"></a>
+      <a href="#" class="link-icon"><img class="link-icon__img" src="./images/icon/facebook.svg" alt="facebook"></a>
+      <a href="#" class="link-icon"><img class="link-icon__img" src="./images/icon/instagram.svg" alt="instagram"></a>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero__content content-width x-center">
+        <div class=" hero__yellow-block">
+          <div class="title-main hero__title-main">Доступно на всех платформах</div>
+          <a href="#" class="link-btn hero__link-btn">Узнать больше</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-night-city content-width x-center">
+      <h1 class="section-night-city__title-main title-main"><em>Най-Сити</em> изменит тебя навсегда!</h1>
+      <p class="section-night-city__p paragraph"><cite>Cyberpunk 2077</cite> — приключенческая ролевая игра, действие
+        которой происходит в мегаполисе Найт-Сити, где власть, роскошь и модификации тела ценятся выше всего. Ты играешь
+        за V, наёмника в поисках устройства, позволяющего обрести бессмертие. Ты сможешь менять киберимпланты, навыки и
+        стиль игры своего персонажа, исследуя открытый мир, где твои поступки влияют на ход сюжета и всё, что тебя
+        окружает.</p>
+      <div class="section-night-city__images">
+
+        <div class="images-night-city small-img">
+          <picture>
+            <source srcset="./images/content/night_city_1_mobile_min1x.jpg" media="(max-width: 320px)">
+            <img src="./images/content/night_city_1_min1x.jpg" alt="">
+          </picture>
+
+        </div>
+        <div class="images-night-city small-img">
+          <picture>
+            <source srcset="./images/content/night_city_2_mobile_min1x.jpg" media="(max-width: 320px)">
+            <img src="./images/content/night_city_2_min1x.jpg" alt="">
+          </picture>
+
+        </div>
+
+        <div class="images-night-city middle-img">
+          <picture>
+            <source srcset="./images/content/night_city_3_mobile_min1x.jpg" media="(max-width: 430px)">
+            <source srcset="./images/content/night_city_3_tablet_min1x.jpg" media="(max-width: 1024px)">
+            <img src="./images/content/night_city_3_desc_min1x.jpg" alt="">
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-console">
+      <div class="section-console__content content-width x-center grid">
+        <div class="promotion-img section-console__promotion-img">
+          <img src="./images/icon/акция.svg" alt="">
+        </div>
+        <h2 class="title-main section-console__title">Играй и выигрывай</h2>
+        <p class="paragraph section-console__p">Играй в <cite>Cyberpunk 2077</cite> и получи возможность выиграть
+          консоль <mark>Xbox Series X</mark> или <mark>Sony PlayStation 5</mark>! Заполни форму ниже и приложи скриншот
+          о покупке игры. Итоги розыгрыша будут подведены 1 февраля. Удачи!</p>
+        <div class="section-console__form">
+          <form action="#" id="form-screenshot" class="form-night-city" enctype="multipart/form-data" method="POST"
+            name="form-night-city">
+
+            <input type="text" name="name" aria-label="Введите ваше имя" class="night-city-input"
+              placeholder="Как тебя зовут?" required>
+
+            <input type="email" name="email" aria-label="Введите ваш email" class="night-city-input"
+              placeholder="Твой email" required>
+
+            <div id="container-file" class="file-upload">
+              <label id="label-file" class="file-upload__label" for="file">Загрузите скриншот</label>
+              <div id="file-formats" class="file-upload__formats">.png/.jpg/.pdf</div>
+              <input type="file" class="file-upload__input" name="screenshot" id="file" accept=".png, .jpg, .pdf"
+                aria-describedby="file-formats" required>
+            </div>
+
+            <div class="wrapper-btn-consent">
+              <button type="submit" id="btn-form-screenshot" class="btn-night-city">отправить</button>
+              <div class="consent">
+                <input type="checkbox" class="consent__checkbox" name="consent" id="consent" required>
+                <label for="consent" class="consent__label">Я согласен на обработку моих персональных данных</label>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="section-console__img">
+          <div class="console-img-xbox section-console__xbox">
+            <img src="./images/content/xbox.png" alt="xbox" class="image">
+          </div>
+          <div class="console-img-ps5 section-console__ps5">
+            <img src="./images/content/ps5.png" alt="ps5" class="image">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-monitor">
+      <div class="section-monitor__content content-width x-center grid">
+        <div class="section-monitor__content-img">
+          <div class="monitor-img">
+            <img src="./images/content/monitor_min 2x.png" alt="monitor">
+          </div>
+          <div class="monitor-label x-center">
+            <div class="brand-img">
+              <img src="./images/icon/hp.svg" alt="hp">
+            </div>
+            <div class="line-img">
+              <img src="./images/icon/decor.svg" alt="decor line">
+            </div>
+            <div class="logo-container logo-container--size-large">
+              <img src="./images/logo_min.png" alt="Cyberpunk logo">
+            </div>
+          </div>
+        </div>
+
+        <div class="monitor-description section-monitor__monitor-description">
+          <h2 class="title-main monitor-description__p">Полное погружение вместе с HP</h2>
+          <p class="paragraph paragraph--color-black">Погрузись в современные экшен-игры с реалистичным изображением с
+            помощью монитора с диагональю 23,8 дюйма, созданном для отображения максимально насыщенных цветов. Успевай
+            реагировать на любые события с временем отклика 1 мс и частотой в 144 Гц!</p>
+          <ul class="list-night-city">
+            <li class="list-night-city__item monitor-list-item-marker paragraph paragraph--color-black">Яркие насыщенные
+              цвета</li>
+            <li class="list-night-city__item monitor-list-item-marker paragraph paragraph--color-black">Кристальная
+              четкость изображения</li>
+            <li class="list-night-city__item monitor-list-item-marker paragraph paragraph--color-black">Быстрые движения
+              и плавный геймплей</li>
+          </ul>
+          <button class="btn-night-city btn-night-city--color-black">Подробнее</button>
+        </div>
+      </div>
+    </section>
+    <section class="section-sale">
+      <div class="section-sale__content grid content-width x-center">
+        <h2 class="section-sale__title title-main title-main--color-white">Купить игру Cyberpunk 2077</h2>
+        <div class="section-sale__list">
+          <h3 class="title-secondary title-secondary--bottom-26">В комплект входит:</h3>
+          <ul class="list-night-city">
+            <li class="list-night-city__item sale-list-item-marker paragraph">Футляр с игровыми дисками</li>
+            <li class="list-night-city__item sale-list-item-marker paragraph">Футляр с кодом для загрузки игры и
+              дисками (pc)</li>
+            <li class="list-night-city__item sale-list-item-marker paragraph">Справочник с информацией об игровом
+              мире</li>
+          </ul>
+        </div>
+        <div class="section-sale__footer">
+          <h3 class="title-secondary title-secondary--bottom-26">Выберите платформу</h3>
+          <div class="section-sale__container-icon">
+            <div class="icon-platform pc-icon">
+              <a href="#"><img src="./images/icon/PC.svg" alt="pc"></a>
+            </div>
+            <div class="icon-platform xbox-one-icon xbox-one-icon--position">
+              <a href="#"><img src="./images/icon/xbox_one.svg" alt="xbox one"></a>
+            </div>
+            <div class="icon-platform stadia-icon stadia-icon--position">
+              <a href="#"><img src="./images/icon/stadia.svg" alt="stadia"></a>
+            </div>
+            <div class="icon-platform ps-4-icon ps-4-icon--position">
+              <a href="#"><img src="./images/icon/ps4.svg" alt="ps 4"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="content-width grid grid-1fr footer__header x-center">
+      <div class="logo-container footer__logo-container">
+        <img src="./images/logo_min.png" alt="Cyberpunk logo">
+      </div>
+      <div class="footer__d-contents">
+        <div class="brand-logo-container footer__brand-logo-container">
+          <img src="./images/brand-logo.png" alt="Cyberpunk logo">
+        </div>
+        <div class="footer__text">
+          <p>Лицензия</p>
+          <p class="text-center">Политика конфиденциальности</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer__footer">
+      <p class="brand x-center">CD PROJEKT®, Cyberpunk®, Cyberpunk 2077®</p>
+    </div>
+  </footer>
+
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
