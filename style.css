@@ -697,11 +697,9 @@ input:-webkit-autofill {
 
   .section-console__img {
     grid-column: 4/7;
-    grid-row: 1/5;
-
+    grid-row: 2/4;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
     height: 100%;
   }
 
